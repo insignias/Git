@@ -1,0 +1,24 @@
+## Velocity Template.
+<link rel="stylesheet" type="text/css" media="screen" href="resources/css/common/GeneralStyle.css">
+
+
+<div class="wrapper">
+			<h1>Online Shopping Center</h1>
+			<br>
+			<br>
+			<h2>Delivery at your <span>doorstep</span></h2>
+			<div class="content">
+				<div id="form_wrapper" class="form_wrapper">
+					<h3>Order Receipt:</h3>
+					<div class="row">	
+						<h4>Your order has been confirmed</h4>
+						<h4>Your order receipt has been mailed at ${orderSummaryInfo.getLoginUserBean().getEmail()}</h4>		
+					</div>	
+					<div class="clear"></div>
+					<div class="bottom">
+						<a class="relogin" title="Return to Product Catalog" href="addToCart">Return to Product Catalog</a>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+</div>

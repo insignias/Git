@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		
+	<bean id="implLoginUserValidator" class="com.neu.css.login.validate.ImplLoginUserValidator"></bean>		
+	<bean id="shoppingCartCatalogBean" class="com.neu.css.shoppingcart.bean.ShoppingCartCatalogBean"></bean>
+	<bean id="shoppingCartBean" class="com.neu.css.shoppingcart.bean.ShoppingCartBean"></bean> 
+	<bean id="implPaymentModeValidator" class="com.neu.css.payment.validate.ImplPaymentModeValidator"></bean>
+	<bean id="pdfBuilder" class="com.neu.css.pdf.model.ImplPdfBuilder"></bean>	
+</beans>

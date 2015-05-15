@@ -1,0 +1,50 @@
+[
+	{
+		"productName": "chair", 
+		"productDesc": "chair",
+		"productPrice": "1234",
+		"productURL": "resources/images/productcatalog/1.jpg"
+	},
+	{
+		"productName": "table", 
+		"productDesc": "table",
+		"productPrice": "3213",
+		"productURL": "resources/images/productcatalog/4.jpg"
+	},
+	{
+		"productName": "Shoes", 
+		"productDesc": "Shoes",
+		"productPrice": "45",
+		"productURL": "resources/images/productcatalog/2.jpg"
+	},
+	{
+		"productName": "Shirt", 
+		"productDesc": "Shirt",
+		"productPrice": "23",
+		"productURL": "resources/images/productcatalog/3.jpg"
+	},
+	{
+		"productName": "Denims", 
+		"productDesc": "Denims",
+		"productPrice": "40",
+		"productURL": "resources/images/productcatalog/5.jpg"
+	},
+	{
+		"productName": "Shoes1", 
+		"productDesc": "Shoes",
+		"productPrice": "45",
+		"productURL": "resources/images/productcatalog/6.jpg"
+	},
+	{
+		"productName": "Shirt1", 
+		"productDesc": "Shirt",
+		"productPrice": "23",
+		"productURL": "resources/images/productcatalog/6.jpg"
+	},
+	{
+		"productName": "Denims1", 
+		"productDesc": "Denims",
+		"productPrice": "40",
+		"productURL": "resources/images/productcatalog/7.jpg"
+	}
+]
