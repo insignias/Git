@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>  
+    <definition name="base.layout" template="/WEB-INF/views/layout/main.jsp">  
+        <put-attribute name="title" value=""></put-attribute>
+        <put-attribute name="header" value="/WEB-INF/views/layout/header.jsp"></put-attribute>
+        <put-attribute name="body" value=""></put-attribute> 
+        <put-attribute name="footer" value="/WEB-INF/views/layout/footer.jsp"></put-attribute>  
+    </definition>
+   
+    <definition extends="base.layout" name="admin">
+        <put-attribute name="title" value="Catalog Browsing"></put-attribute> 
+        <put-attribute name="body" value="/WEB-INF/views/login/GeneralAdmin.jsp"></put-attribute>  
+    </definition>
+    
+    <definition extends="base.layout" name="confirmRegistration">
+        <put-attribute name="title" value="Catalog Browsing"></put-attribute> 
+        <put-attribute name="body" value="/WEB-INF/views/login/RegisterConfirmation.jsp"></put-attribute>  
+    </definition>
+    
+       
+    <definition extends="base.layout" name="reminder">
+        <put-attribute name="title" value="Catalog Browsing"></put-attribute> 
+        <put-attribute name="body" value="/WEB-INF/views/login/ReminderSuccess.jsp"></put-attribute>  
+    </definition>
+       
+    <definition extends="base.layout" name="ImplPayment">
+        <put-attribute name="title" value="Catalog Browsing"></put-attribute>  
+        <put-attribute name="body" value="/WEB-INF/views/payment/ImplPayment.jsp"></put-attribute>  
+    </definition>
+    
+    <definition extends="base.layout" name="ProductCatalogBrowsing">  
+        <put-attribute name="title" value="Login Form"></put-attribute>  
+        <put-attribute name="body" value="/WEB-INF/views/productcatalog/ProductCatalogBrowsing.jsp"></put-attribute>  
+    </definition>
+    
+    <definition extends="base.layout" name="ProductDescription">  
+        <put-attribute name="title" value="Shopping Cart"></put-attribute>  
+        <put-attribute name="body" value="/WEB-INF/views/productcatalog/ProductDescription.jsp"></put-attribute>  
+    </definition>
+     
+   <definition extends="base.layout" name="ImplOrderSummary">  
+        <put-attribute name="title" value="Shopping Cart"></put-attribute>  
+        <put-attribute name="body" value="/WEB-INF/views/ordersummary/ImplOrderSummary.jsp"></put-attribute>  
+    </definition> 
+</tiles-definitions>
